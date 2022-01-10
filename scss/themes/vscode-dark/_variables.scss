@@ -33,12 +33,12 @@
   --blockquote__text-align: inherit;
   --blockquote__text-justify: inherit;
 
-  --code-font__color: #6d9cbe;
+  --code-font__color: #d7ba7d;
   --code-font__font-family: monospace;
   --code-font__font-size: 1em;
-  --code__background: #eee;
+  --code__background: hsla(0,0%,50%,.17);
   --code__background_gutter: #f7f7f7;
-  --code-inline__border: 1px solid #ddd;
+  --code-inline__border: 1px solid #444;
 
   --db-menu__background-color: inherit;
   --db-menu__background-color_hover: #5c7080;
@@ -64,7 +64,7 @@
   --encrypted__color: #8a9ba8;
   --encrypted__font-size: 12px;
 
-  --external-link__color: #337ab7;
+  --external-link__color: #58a6ff;
   --external-link__text-decoration: underline;
 
   --inline-block__background-color: #f5f8fa;
@@ -85,7 +85,7 @@
   --menu__background: #fff;
 
   --page-brackets__color: #a7b6c2;
-  --page-link__color: #106ba3;
+  --page-link__color: #58a6ff;
   --page-link-namespace__color: green;
 
   --pomodoro__background: transparent;
@@ -120,9 +120,9 @@
 
   /* body */
 
-  --body__background-color: #fff;
-  --main-font__color: #202b33;
-  --main-font__font-family: 'Inter', sans-serif;
+  --body__background-color: #171717;
+  --main-font__color: #d4d4d4;
+  --main-font__font-family: "SF Mono",Monaco,Menlo,Courier,monospace;
   --main-font__font-size: 14px;
   --caret__color: #0080ff;
   --accent__color: #e98924;
@@ -135,7 +135,7 @@
 
   --bullet__background-color: #394b59;
   --bullet__border_closed: #ced9e0;
-  --bullet-outline__border: #bfccd6;
+  --bullet-outline__border: #5d5d5d;
   --bullet-outline__border_hover: #5c7080;
 
   --section-divider_border-top: #738694;
@@ -194,7 +194,7 @@
 
   --calculation__color: #0a6640;
   --emphasis__color: inherit;
-  --h1__color: #202b33;
+  --h1__color: #d4d4d4;
   --h1__color_link: var(--page-link__color);
   --h1__font-family: var(--main-font__font-family);
   --h1__font-size: 1.8rem;
